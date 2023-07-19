@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
     margin: 0;
 }
 
@@ -78,4 +78,130 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.info-header {
+    display: flex;
+    justify-content: center;
+    font-weight: bolder; 
+    font-size: 36px;
+    color: #1F2937;
+    padding: 30px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+}
+
+.img {
+    border: 4px solid #3882f6;
+    display: flex;
+    width: 175px;
+    height: 175px;
+    border-radius: 16px;
+    justify-content: center;
+    align-items: center;
+    margin: 4px 20px;
+}
+
+.text {
+    display: flex;
+    width: 175px;
+    height: 175px;
+    text-align: center;
+    font-size: 18px;
+    color: gray;
+    justify-content: center;
+    margin: 4px 20px ;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    font-weight: 100;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    width: 905px;
+    padding: 75px;
+    padding-bottom: 4px;
+    text-align: left;
+}
+
+.quote-cite {
+    display: flex;
+    color: #1F2937;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: right;
+    width: 900px;
+    justify-content: flex-end;
+    padding-bottom: 75px;
+    padding-right: 175px;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+}
+
+.action-block {
+    display: flex;
+    background-color: #3882f6;
+    width: 900px;
+    height: 100px;
+    border-radius: 8px;
+    margin: 50px;
+    padding: 16px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.action-button {
+   display: flex;
+    border: 4px solid #E5E7EB ;
+    border-radius: 8px;
+    width: 100px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+}
+
+.action-heading {
+    display: flex;
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.action-sub {
+    display: flex;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.action-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    background-color: #1F2937;
+    color: #f9faf8;
+    font-weight: 100;
 }
